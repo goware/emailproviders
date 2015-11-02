@@ -22,6 +22,6 @@ func Exists(email string) bool {
 }
 
 var publicProviders = map[string]struct{}{
-	//go:generate go run generate.go
+	//go:generate go run generate/main.go
 	"gmail.com": struct{}{},
 }
