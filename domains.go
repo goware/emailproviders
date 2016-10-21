@@ -1098,7 +1098,7 @@ var publicProviders = map[string]struct{}{
 	"hotpop.com": struct{}{}, 
 	"hotpop3.com": struct{}{}, 
 	"hotvoice.com": struct{}{}, 
-	"housefancom": struct{}{}, 
+	"housefan.com": struct{}{}, 
 	"housemail.com": struct{}{}, 
 	"hsuchi.net": struct{}{}, 
 	"html.tou.com": struct{}{}, 
