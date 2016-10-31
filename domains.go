@@ -1007,7 +1007,6 @@ var publicProviders = map[string]struct{}{
 	"gmail.co.uk": struct{}{}, 
 	"gmail.com": struct{}{}, 
 	"gmail.com.com": struct{}{}, 
-	"gmail.com1": struct{}{}, 
 	"gmail.it": struct{}{}, 
 	"gmail.om": struct{}{}, 
 	"gmx.at": struct{}{}, 
