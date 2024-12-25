@@ -1,13 +1,10 @@
 package emailproviders
 
-import "log"
-
 //go:generate go run generate/main.go generate/domains.txt domains.go
 
 func Exists(email string) bool {
 	at := lastIndexByte(email, '@')
 	if at <= 0 || len(email[at:]) < 3 {
-		log.Printf("false")
 		return false
 	}
 
